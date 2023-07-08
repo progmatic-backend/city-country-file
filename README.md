@@ -40,47 +40,47 @@ Fordítási hibát tartalmazó kód automatikusan 0 pontot ér. Figyelj oda, mit
    Az 5-10. feladatok metódusaiban a beolvasott adatokat használd!
    _5 pont_
 3. A Country osztályba írj metódust az alábbi szignatúrával:
-   public double getPopulationDensity()
+   `public double getPopulationDensity()`
    Ez a metódus visszaadja az adott ország népsűrűségét fő/km2
 -ben! Ha az ország
 területe vagy népessége nincs megadva, akkor a metódusod -1-gyel térjen vissza!
 _2 pont_
 4. A Country osztályba írj metódust az alábbi szignatúrával:
-   public double getRuralPopulation()
+   `public double getRuralPopulation()`
    Ez a metódus visszaadja, hogy az adott országban hány fő él a felsorolt városokon
    kívül!
    _2 pont_
 5. Írj metódust, amely az országkód alapján visszaadja egy ország összes adatát! A
    metódus szignatúrája az alábbi legyen:
-   public Country findCountryByISoCode(String isoCode)
+   `public Country findCountryByISoCode(String isoCode)`
    _2 pont_
 6. Írj metódust, amely visszaadja egy paraméterül kapott kontinens országainak az
    országkódjait! A metódus szignatúrája az alábbi legyen:
-   public List<String> getCountriesOfContinent(String continentName)
+   `public List<String> getCountriesOfContinent(String continentName)`
    _2 pont_
 
 7. Írj metódust, amely visszaadja egy paraméterül kapott ország városainak a neveit (az
    országot országkóddal adjuk meg)! A metódus szignatúrája az alábbi legyen:
-   public Set<String> getCitiesOfCountry(String countryCode)
+   `public Set<String> getCitiesOfCountry(String countryCode)`
    _2 pont_
 
 8. Hány országnak az államfőjének a nevében szerepel “Hamad” vagy “Ahmad” vagy
    “Ahmed”? Írj metódust, amely válaszol erre a kérdésre!
    A metódus szignatúrája az alábbi legyen:
-   public int countAhmeds()
+   `public int countAhmeds()`
    _2 pont_
 9. Melyik betűvel kezdődik a legtöbb országkód? Írj metódust, amely válaszol erre a
    kérdésre.
    A metódus szignatúrája az alábbi legyen:
-   public String getPopularFirstLetter()
+   `public String getPopularFirstLetter()`
    _5 pont_
 10. Melyik ország nyerte el legkésőbb (a nyilvántartás szerint) a függetlenségét? Add
     vissza a megfelelő országkódot, a metódus szignatúrája pedig az alábbi legyen:
-    public String lastIndependentCountryCode()
+    `public String lastIndependentCountryCode()`
     _4 pont_
 
 11. Bónusz: A City osztályba írj egy metódust az alábbi szignatúrával:
-    public double getPopulationPercentage()
+    `public double getPopulationPercentage()`
     A metódus visszaadja, hogy az adott város populációja hány százaléka az
     anyaország populációjának! Ha akár a város, akár az anyaország populációja nincs
     megadva, a metódusod -1-gyel térjen vissza!
